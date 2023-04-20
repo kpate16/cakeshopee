@@ -1,0 +1,54 @@
+/* ===================================== Import other CSS ================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+@import url(form.css);
+@import url(button.css);
+@import url(logo.css);
+@import url(card.css);
+@import url(navbar.css);
+/* ===================================== Basic CSS ==================================== */
+
+body {
+  font-family: "Open Sans";
+  color: rgb(73, 73, 73);
+  /* background-color: azure; */
+}
+.text-c1 {
+  color: rgb(152, 76, 138);
+}
+img {
+  max-width: 100%;
+}
+/* img {
+  width: 100%;
+  height: auto;
+} */
+
+.login-form-main {
+  background: url(../images/login4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding: 40px 0px;
+}
+.register-form-main {
+  background: url(../images/register.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding: 40px 0px;
+}
+.home-form-main {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}

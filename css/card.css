@@ -1,0 +1,15 @@
+.transparant-card {
+  /* width: 500px; */
+  display: block;
+  margin: 20px auto;
+  padding: 25px 50px 25px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  z-index: 9;
+}
+
+@media screen and (max-width: 600px) {
+  .transparant-card {
+    width: 100%;
+  }
+}
