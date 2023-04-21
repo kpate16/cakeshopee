@@ -14,7 +14,6 @@
 <body>
     <div class="row">
         <div class="col col-md-12">
-
             <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">CakeShopee</a>
@@ -32,28 +31,758 @@
                                 <a class="nav-link" href="products.html">Our Products</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
+                                <a class="nav-link" href="about-us.html">About Us</a>
                             </li>
                         </ul>
-
-
                     </div>
-
-                    <a href="register.html">signup</a> | <a href="login.html">Login</a>
+                    <a href="register.html">Sign-up</a> | <a href="login.html">Sign-in</a>
                     <i class="fas fa-heart fa-xl ms-5"></i>
-                    <i class="fas fa-shopping-cart fa-xl ms-2"></i>
+                    <a href="checkout.html"> <i class="fas fa-shopping-cart fa-xl ms-2"></i></a>
+
                 </div>
+            </nav>
         </div>
-        </nav>
-
-
     </div>
-    </div>
+    <div class=" container mt-5">
+        <h2 class="fw-bold m-4">
+            Product
+            <label class="text-c1">List</label>
+        </h2>
+        <div class="row ">
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/c5.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart.svg" class="" id="like56" data-src="../images/heart.svg" alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    products
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/c2.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Red Heart Pinata Cake</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/c3.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/c4.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/pastry2.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/pastry3.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/pastry1.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/pastry4.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/sav1.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/sav2.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/sav3.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card">
+                    <div class="cake_pic">
+                        <a href="product-detail.html" target="_blank">
+                            <img src="../images/sav4.jpg" alt="Premium Alpine Chocolate Round Cake"
+                                style="width: 100%;"></a>
+                        <div class="purity_icn">
+                            <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        </div>
+                        <div class="circle_tag active" title="Like this Product" onclick="setLike(56,0)">
+                            <img src="../images/heart-1.svg" class="" id="like56" data-src="../images/heart-1.svg"
+                                alt="">
+                        </div>
+                        <div class="cake_prc p-1">
+                            <div>
+                                $ 50.23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Tall And Fancy</h6>
+                        <div class="row mt-3">
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <span id="passwordHelpInline" class="form-text">
+                                            kg.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <select class="form-select form-select-sm" aria-label="Default select example">
+                                            <option value="1" selected>chocolate</option>
+                                            <option value="2">Vanilla</option>
+                                            <option value="3">caramal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col col-md-12">
+                                <i class="fa-regular fa-square-plus fa-xl"></i>
+                                <label class="fw-bold p-2"> 0 </label>
+                                <i class="fa-regular fa-square-minus fa-xl"></i>
+                                <i class="fas fa-shopping-cart fa-xl  float-end mt-3 text-c1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

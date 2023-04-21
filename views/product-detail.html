@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <title>Product Details</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">CakeShopee</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="products.html">Our Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="register.html">Sign-up</a> | <a href="login.html">Sign-in</a>
+                    <i class="fas fa-heart fa-xl ms-5"></i>
+                    <a href="checkout.html"> <i class="fas fa-shopping-cart fa-xl ms-2"></i></a>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-3">
+
+            <div class="col col-md-5">
+                <div class="card m-0">
+                    <img src="../images/c5.jpg" />
+
+                    <div class="row mt-3 m-0">
+
+                        <div class="col-2">
+                            <img src="../images/c5.jpg" />
+                        </div>
+                        <div class="col-2">
+                            <img src="../images/c5.jpg" />
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col col-md-7">
+                <div class="card m-0 p-4">
+                    <p class="text-success">In Stock</p>
+                    <span class="fw-bold h5">
+                        <img src="../images/veg_icn.jpg" class="" data-src="../images/veg_icn.jpg" alt="">
+                        Exotic Irish Coffee Cake
+                    </span>
+                    <div style="float: right; width: 49%;">
+                        <div class="detail_like">
+                            <div class="circle_tag active" title="Like this Product" onclick="setLike(672)">
+                                <img src="../images/heart-1.svg" class="" id="like672" data-src="../images/heart-1.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col col-md-6">
+                            <label class="text-primary"> Product Highlights :</label>
+                            <ul class="highlist_list">
+                                <li> Sub
+                                    Category: Exotic Cake
+                                </li>
+                                <li>
+                                    Product Type: Gateaux
+                                </li>
+                                <li>
+                                    Flavour: Coffee
+                                </li>
+                                <li>
+                                    Shapes: Round
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-6">
+                            <div class="alert alert-warning" role="alert">
+                                <label class="h6">Message On Cake</label>
+
+                                <input type="test" name="message" class="form-control "
+                                    placeholder="Message / Name on the Cake" required="" aria-required="true" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col col-md-3">
+                            <label for="weight">Flavor</label>
+                            <select class="form-select form-select-sm" id="weight" aria-label="Default select example">
+                                <option value="1" selected>Coffee</option>
+                                <option value="2">Vanilla</option>
+                                <option value="3">Chocolate</option>
+                            </select>
+                        </div>
+                        <div class="col col-md-3">
+                            <div class="row ">
+                                <div class="col col-md-7">
+                                    <label for="weight">Weight</label>
+                                    <select class="form-select form-select-sm" id="weight"
+                                        aria-label="Default select example">
+                                        <option value="1" selected>1 </option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                                <div class="col col-md-4 mt-4">
+
+                                    <span class=" h6">
+                                        lbs.
+                                    </span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col col-md-3">
+                            <label for="weight">Price</label>
+                            <div class="">
+                                <span class="fw-bold h5">
+
+                                    <label class="text-c1">$ 57.50</label>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col col-md-3 mt-3">
+                            <button type="button" class="btn btn-primary">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card m-0 p-4 mt-2">
+
+                    <label class="text-primary"> Delivery Details :</label>
+                    <ul class="highlist_list">
+                        <li> The delicious cake is hand-delivered by our delivery boy in a good quality cardboard box.
+                        </li>
+                        <li>
+                            Candle and knife will be delivered as per the availability
+                        </li>
+
+                    </ul>
+
+
+
+
+                    <label class="text-primary"> Care Instructions :</label>
+                    <ul class="highlist_list">
+                        <li> After receiving, Please do not squeeze the sides of the box
+                        </li>
+                        <li>
+                            Please keep it cool and away from direct sunlight
+                        </li>
+                        <li>
+                            Immediately cover any leftover cake and refrigerate it
+                        </li>
+
+                        <li>
+                            Cakes are perishable and best enjoyed within 24 hours
+                        </li>
+                        <li>
+                            Slice and serve the cake at room temperature</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
