@@ -24,7 +24,9 @@ git pull https://github.com/kpate16/cakeshopee
 ---
 ![image](https://user-images.githubusercontent.com/130574523/233535417-58de645a-d4f9-4f2b-8d8d-53ad2b9c119d.png)
 ---
+
 ![image](https://user-images.githubusercontent.com/130574523/233535533-90515aad-8e36-438c-b777-82ee9f583ebc.png)
+
 ---
 ![image](https://user-images.githubusercontent.com/130574523/233535738-e6cb3d68-d9ba-4de0-95ee-19e1252f8d75.png)
 ---
@@ -34,9 +36,3 @@ git pull https://github.com/kpate16/cakeshopee
 ---
 ![image](https://user-images.githubusercontent.com/130574523/233536183-ce8e5164-e0f7-4fe0-b6d7-17ad276bf367.png)
 
-
-
-
-
-
-```
