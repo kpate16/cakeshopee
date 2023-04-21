@@ -1,12 +1,12 @@
 # Cake Shopee
 
-- Cake Shoppe website is developed for online cake selling . Multiple cake designs are available. For purchasing cake First of all user needs to get registered and then user can get access to website. Multiple cakes designs are available.
+- Cake Shoppe website is developed for online cake selling . For purchasing cake First of all user needs to get registered and then user can get access to website. Multiple cakes designs are available.
 
 ---
 
 ## Technology
-HTML
-CSS
+HTML,
+CSS,
 Bootstrap
 
 ## Opening the File
