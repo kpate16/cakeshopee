@@ -13,7 +13,7 @@ Bootstrap
 
 - Pull Code via Git and Open with Live Server
 
-
+```bash
 git pull https://github.com/kpate16/cakeshopee
 
 -Screenshots:
